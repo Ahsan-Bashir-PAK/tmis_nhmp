@@ -26,7 +26,7 @@ const Login = () => {
                         </div>
                     </div>
                         <div className='flex-row text-xs'> 
-                            <span className='text-blue-800'><Link href="/login/RegisterationForm">Create Account</Link></span>
+                            <span className='text-blue-800'><Link href={"/registeration"}>Create Account</Link></span>
                             <input className="p-1 w-2/4 bg-slate-700 ml-2 rounded-md text-white  hover:bg-slate-500 cursor-pointer" type="button" value="Login" /> 
                         </div>
                     
